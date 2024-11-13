@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(218, 163, 13);
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(hsla(27, 83%, 66%, 0.699), rgba(139, 61, 61, 0.596)),
+    url('../images/taust.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: rgb(255, 228, 196);
+    background-color: rgb(255, 81, 0);
+}
+
+.container h3 {
+    margin: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.container p {
+    color: white;
+    font-size: 1.5rem;
+}
